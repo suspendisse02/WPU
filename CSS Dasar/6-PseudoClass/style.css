@@ -1,0 +1,34 @@
+/* {link,hover,active,visited} */
+.hello:link{
+    color: orange;
+}
+/* hover:pada saat disorot dengan cursor tapi tidak diklik */
+.hello:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: green;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    font-style: italic;
+}
+/* position elemen */
+li:first-child a{
+    color: green;
+}
+li:last-child a:hover {
+    color: rgb(248, 99, 12);
+}
+/* bisa dengan odd even */
+li:nth-child(3n-1) a {
+    color: rgb(179, 12, 165);
+}
+p:first-of-type{
+    color: red;
+}
+p:nth-last-of-type(1){
+    color: olive;
+}
+/* child hanya untuk anak elemen jika untuk "p" gunakan fist of type or last of type */
