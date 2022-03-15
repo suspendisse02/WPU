@@ -1,0 +1,34 @@
+/* display:inline, inline-block, node */
+.navigasi {
+    background-color: pink;
+}
+.navigasi li{
+    display: inline;
+}
+.main {
+    background-color: lightgreen;
+    width: 600px;
+}
+.main h2{
+    background-color: blueviolet;
+}
+.main span {
+    color: brown;
+}
+
+a{
+    background-color: aqua;
+    /*
+    tidak berpengaruh karena w dan h sesuai dengan content
+    width: 200px;
+    height: 100px;
+    kecuali jika display nya diubah ke inline-block 
+    */
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+/* hanya tag image (tag inline) yang bisa diatur w dan h nya */
+img{width: 100px;height: 200px;}
+
+h1, h2, p {background-color: aquamarine;}
