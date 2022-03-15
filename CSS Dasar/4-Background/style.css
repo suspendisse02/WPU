@@ -1,0 +1,8 @@
+body{
+    background-color: lightblue;
+    background-image: url(cat.jpg);
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* center of content */
+}
