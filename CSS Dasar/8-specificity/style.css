@@ -1,0 +1,17 @@
+/* 4 bit _ _ _ _
+1-inline
+2-id
+3-class
+4-element */
+p#p1{
+color: red;
+}
+p{
+    color: green;
+}
+ul#sarapan li{
+    color: green;
+}
+ul#sarapan li.favorit{
+    color: red;
+}
