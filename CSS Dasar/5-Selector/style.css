@@ -1,0 +1,28 @@
+/* selektor elemen html */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    color: green;
+}
+ul{
+    color: orange;
+}
+ol li a{
+    color: yellow;
+}
+/* id */
+#p1{
+    color: aqua;
+}
+/* kelas */
+.p2{
+    color: goldenrod;
+}
+.cetak-tebal{
+    font-weight: bold;
+}
+p.cetak-tebal{
+    font-size: 30px;
+}
+/* sebila mungkin tidak menggunakan id untuk css dan usahakan menggunakan elemen html saja */
