@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    /* dengan nama warna */
+    color: skyblue;
+}
+h2{
+    font-size: 50px;
+    /* dengan hexa */
+    color: #fff10f;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 100px;
+    /* dengan RGB */
+    color:rgb(10,20,60);
+}
+p{
+    /* text-align: right; */
+    text-indent: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+a{
+    /* menambahkan/menghilangkan garis */
+    text-decoration: none;
+}
